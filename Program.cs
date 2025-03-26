@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+// Register Radzen services
 builder.Services.AddRadzenComponents();
 
 var app = builder.Build();
